@@ -15,15 +15,11 @@
 <script>
 export default {
   data () {
-    return {
-    }
+    return {}
   },
-  created () {
-  },
-  methods: {
-  },
-  mounted () {
-  }
+  created () {},
+  methods: {},
+  mounted () {}
 }
 </script>
 
@@ -52,7 +48,7 @@ h1 {
 .bg2 {
   width: 100%;
   height: 100%;
-  background-image: url('../../assets/iris.png');
+  background-image: url('../../assets/tq1.jpeg');
   background-size: cover;
   display: table;
   background-attachment: fixed;

@@ -1,32 +1,32 @@
 <template>
   <div class="photo-cards">
     <div class="cards">
-      <div class="card1" style="--img:1" >
-        <img class="img1" src="../../assets/altlas.jpg"/>
+      <div class="card1" style="--img: 1">
+        <img class="img1" src="../../assets/tq1.jpeg" />
       </div>
-      <div class="card2" style="--img:2" >
-        <img class="img2" src="../../assets/amenowuzume.jpg"/>
+      <div class="card2" style="--img: 2">
+        <img class="img2" src="../../assets/tq2.jpeg" />
       </div>
-      <div class="card3" style="--img:3" >
-        <img class="img3" src="../../assets/frigg.jpg"/>
+      <div class="card3" style="--img: 3">
+        <img class="img3" src="../../assets/tq3.jpeg" />
       </div>
-      <div class="card4" style="--img:4" >
-        <img class="img4" src="../../assets/mimir.jpg"/>
+      <div class="card4" style="--img: 4">
+        <img class="img4" src="../../assets/tq4.jpeg" />
       </div>
-      <div class="card5" style="--img:5" >
-        <img class="img5" src="../../assets/njor.jpg"/>
+      <div class="card5" style="--img: 5">
+        <img class="img5" src="../../assets/tq4.jpeg" />
       </div>
-      <div class="card6" style="--img:6" >
-        <img class="img6" src="../../assets/tagitsuhime.jpg"/>
+      <div class="card6" style="--img: 6">
+        <img class="img6" src="../../assets/tq6.jpeg" />
       </div>
-      <div class="card7" style="--img:7" >
-        <img class="img7" src="../../assets/iris.png"/>
+      <div class="card7" style="--img: 7">
+        <img class="img7" src="../../assets/tq1.jpeg" />
       </div>
-      <div class="card8" style="--img:8" >
-        <img class="img8" src="../../assets/lapetus.jpg"/>
+      <div class="card8" style="--img: 8">
+        <img class="img8" src="../../assets/tq2.jpeg" />
       </div>
-      <div class="card9" style="--img:9" >
-        <img class="img9" src="../../assets/njor.jpg"/>
+      <div class="card9" style="--img: 9">
+        <img class="img9" src="../../assets/tq3.jpeg" />
       </div>
     </div>
   </div>
@@ -35,15 +35,11 @@
 <script>
 export default {
   data () {
-    return {
-    }
+    return {}
   },
-  created () {
-  },
-  methods: {
-  },
-  mounted () {
-  }
+  created () {},
+  methods: {},
+  mounted () {}
 }
 </script>
 
@@ -97,5 +93,4 @@ export default {
     transform: rotateY(360deg);
   }
 }
-
 </style>

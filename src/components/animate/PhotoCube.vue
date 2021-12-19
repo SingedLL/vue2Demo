@@ -3,42 +3,42 @@
     <div class="photos">
       <!--内部立方体-->
       <div class="in-item in-front">
-        <img class="in-img" src="../../assets/altlas.jpg"/>
+        <img class="in-img" src="../../assets/tq1.jpeg" />
       </div>
       <div class="in-item in-back">
-        <img class="in-img" src="../../assets/amenowuzume.jpg"/>
+        <img class="in-img" src="../../assets/tq2.jpeg" />
       </div>
       <div class="in-item in-left">
-        <img class="in-img" src="../../assets/frigg.jpg"/>
+        <img class="in-img" src="../../assets/tq3.jpeg" />
       </div>
       <div class="in-item in-right">
-        <img class="in-img" src="../../assets/mimir.jpg"/>
+        <img class="in-img" src="../../assets/tq4.jpeg" />
       </div>
       <div class="in-item in-top">
-        <img class="in-img" src="../../assets/njor.jpg"/>
+        <img class="in-img" src="../../assets/tq5.jpeg" />
       </div>
       <div class="in-item in-bottom">
-        <img class="in-img" src="../../assets/iris.png"/>
+        <img class="in-img" src="../../assets/tq6.jpeg" />
       </div>
 
       <!--外部立方体-->
       <div class="out-item out-front">
-        <img class="out-img" src="../../assets/tq1.jpeg"/>
+        <img class="out-img" src="../../assets/tq1.jpeg" />
       </div>
       <div class="out-item out-back">
-        <img class="out-img" src="../../assets/tq2.jpeg"/>
+        <img class="out-img" src="../../assets/tq2.jpeg" />
       </div>
       <div class="out-item out-left">
-        <img class="out-img" src="../../assets/tq3.jpeg"/>
+        <img class="out-img" src="../../assets/tq3.jpeg" />
       </div>
       <div class="out-item out-right">
-        <img class="out-img" src="../../assets/tq4.jpeg"/>
+        <img class="out-img" src="../../assets/tq4.jpeg" />
       </div>
       <div class="out-item out-top">
-        <img class="out-img" src="../../assets/tq5.jpeg"/>
+        <img class="out-img" src="../../assets/tq5.jpeg" />
       </div>
       <div class="out-item out-bottom">
-        <img class="out-img" src="../../assets/tq6.jpeg"/>
+        <img class="out-img" src="../../assets/tq6.jpeg" />
       </div>
     </div>
   </div>
@@ -47,15 +47,11 @@
 <script>
 export default {
   data () {
-    return {
-    }
+    return {}
   },
-  created () {
-  },
-  methods: {
-  },
-  mounted () {
-  }
+  created () {},
+  methods: {},
+  mounted () {}
 }
 </script>
 
@@ -75,7 +71,7 @@ export default {
   top: 50px;
   left: 50px;
 }
-.photos  {
+.photos {
   margin: 80px auto;
   width: 200px;
   height: 200px;
@@ -109,10 +105,10 @@ export default {
 }
 @keyframes rotate {
   from {
-    transform: rotateX(0deg) rotateY(0deg)
+    transform: rotateX(0deg) rotateY(0deg);
   }
   to {
-    transform: rotateX(360deg) rotateY(360deg)
+    transform: rotateX(360deg) rotateY(360deg);
   }
 }
 

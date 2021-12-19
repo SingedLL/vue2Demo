@@ -18,15 +18,11 @@
 <script>
 export default {
   data () {
-    return {
-    }
+    return {}
   },
-  created () {
-  },
-  methods: {
-  },
-  mounted () {
-  }
+  created () {},
+  methods: {},
+  mounted () {}
 }
 </script>
 
@@ -39,7 +35,8 @@ export default {
   perspective: 1000px;
   transform-style: preserve-3d;
 }
-.front, .back {
+.front,
+.back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -59,10 +56,20 @@ export default {
   transition: transform 0.7s ease-in-out;
 }
 .front {
-  background-image: linear-gradient(to right, rgb(68, 0, 255), rgb(108, 87, 167)),  url('../../assets/iris.png')
+  background-image: linear-gradient(
+      to right,
+      rgb(68, 0, 255),
+      rgb(108, 87, 167)
+    ),
+    url('../../assets/tq1.jpeg');
 }
 .back {
-  background-image: linear-gradient(to right, rgb(32, 211, 235), rgb(119, 192, 235)), url('../../assets/njor.jpg');
+  background-image: linear-gradient(
+      to right,
+      rgb(32, 211, 235),
+      rgb(119, 192, 235)
+    ),
+    url('../../assets/tq2.jpeg');
   /**翻转 翻转后 默认隐藏 */
   transform: rotateY(180deg);
 }
@@ -78,5 +85,4 @@ export default {
   /**后面的图层翻转到前端 */
   transform: rotateY(0deg);
 }
-
 </style>

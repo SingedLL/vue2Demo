@@ -6,13 +6,15 @@
     <div class="card">
       <div class="face face1">
         <div class="content">
-          <img class="role" src="../../assets/iris.png" alt=""/>
+          <img class="role" src="../../assets/tq1.jpeg" alt="" />
           <h3>人物</h3>
         </div>
       </div>
       <div class="face face2">
         <div class="content">
-          <p>dnjkscndskcndjksncdskncdjksnbcdskbvhdsbjvdsvdsnvdmsvdjsnvjdsvbdsbvdskvbdsbvndjskvbdsjvndskvndnsvbdksbvds</p>
+          <p>
+            dnjkscndskcndjksncdskncdjksnbcdskbvhdsbjvdsvdsnvdmsvdjsnvjdsvbdsbvdskvbdsbvndjskvbdsjvndskvndnsvbdksbvds
+          </p>
         </div>
       </div>
     </div>
@@ -22,15 +24,11 @@
 <script>
 export default {
   data () {
-    return {
-    }
+    return {}
   },
-  created () {
-  },
-  methods: {
-  },
-  mounted () {
-  }
+  created () {},
+  methods: {},
+  mounted () {}
 }
 </script>
 
@@ -111,5 +109,4 @@ p {
   text-align: center;
   word-break: break-word;
 }
-
 </style>
